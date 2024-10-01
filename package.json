@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-  },
+    "lint": "next lint",
+    "postinstall": "git lfs install && git lfs pull"
+},
+ 
   "dependencies": {
     "@auth/mongodb-adapter": "^3.5.2",
     "@auth/prisma-adapter": "^2.5.2",
