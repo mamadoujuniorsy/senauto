@@ -41,7 +41,7 @@ export const LoginForm = () =>{
       .then((data) =>{
         if (data) {
           setError(data.error);
-          setSuccess(data.succes);
+          setSuccess(data.success);
         }
       });
     });
