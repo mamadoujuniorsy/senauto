@@ -48,8 +48,8 @@ export const LoginForm = () =>{
   }
   return(
     <CardWrapper
-      headerLabel="welcome back"
-      backButtonLabel="Don't have an account?"
+      headerLabel="Bienvenue sur SenAuto"
+      backButtonLabel="Pas encore de compte?"
       backButtonHref="/auth/register"
       showSocial
     >
